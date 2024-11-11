@@ -8,9 +8,11 @@
   background-size: cover;
   position: relative;
   background-position: center;
+  z-index: 1;
 }
 
 .header__image {
+  z-index: -1;
   position: absolute;
   top: 124px;
   right: 5px;
@@ -59,5 +61,5 @@
 
 .header__paragraph {
   margin-top: auto;
-  margin: 0;
+  margin-bottom: 0;
 }
