@@ -5,6 +5,7 @@
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
   position: relative;
+  background-position: center;
 }
 
 .recipes__title {
@@ -25,7 +26,9 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -36,4 +39,10 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
+  margin: 0;
+}
+
+.recipes__iframe {
+  width: 560px;
+  height: 315px;
 }
